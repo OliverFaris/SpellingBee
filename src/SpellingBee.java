@@ -51,6 +51,17 @@ public class SpellingBee {
     //  that will find the substrings recursively.
     public void sort() {
         // YOUR CODE HERE
+        mergeSort(words);
+
+    }
+
+    //
+    public ArrayList<String> mergeSort(ArrayList<String> words) {
+        if (words.size() <= 1)
+            return words;
+        else {
+
+        }
     }
 
     // Removes duplicates from the sorted list.
